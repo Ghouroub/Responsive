@@ -1,0 +1,25 @@
+body {
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+.text {
+	width: 100% !important;
+	height: 20% !important;
+}
+.wrapper {
+	width: 100% !important;
+	height: 400% !important;
+	-webkit-transform: rotate(360deg);
+	transition:width 2s, -webkit-transform 2s;
+	font-size: 4em;
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color:green;
+    }
+#clear-box {
+	overflow: hidden;
+	clear: both;
+}

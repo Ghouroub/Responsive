@@ -1,0 +1,19 @@
+header {
+	width: 100%;
+	height: 10%;
+	background-color: gray;
+	text-align: center;
+}
+.text {
+	float: left;
+	margin: 55px;
+	padding: 10px;
+	max-width: 300px;
+	height: 300px;
+	border: 3px solid black;
+	background-color: beige;
+}
+.wrapper{
+font-size:5px;
+}
+
